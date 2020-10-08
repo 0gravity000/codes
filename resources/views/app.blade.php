@@ -15,9 +15,16 @@
 <body>
 <div id="app">
     <header-component></header-component>
-    <!--
-        <router-view></router-view>
-    -->
+    <div class="container">
+    <div class="row">
+        <div id="menu" class="col">
+            <router-link to="/codejs/helloworld">Hello World</router-link>
+        </div>
+        <div id="main" class="col-6">
+            <router-view></router-view>
+        </div>
+    </div>
+    </div>
 </div>
 <!-- Scripts -->
 <script src="{{ mix('/js/app.js') }}" defer></script>

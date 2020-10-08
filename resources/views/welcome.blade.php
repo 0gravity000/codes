@@ -85,7 +85,7 @@
                 </div>
 
                 <div class="links">
-                    <a href="/top">JavaScript サンプルコード集</a>
+                    <a href="/list">JavaScript サンプルコード集</a>
                 </div>
             </div>
         </div>
