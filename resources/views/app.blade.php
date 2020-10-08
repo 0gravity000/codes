@@ -18,7 +18,8 @@
     <div class="container">
     <div class="row">
         <div id="menu" class="col">
-            <router-link to="/codejs/helloworld">Hello World</router-link>
+            <router-link to="/codejs/helloworld">Hello World</router-link><br>
+            <router-link to="/codejs/digitalclock">Digital Clock</router-link><br>
         </div>
         <div id="main" class="col-6">
             <router-view></router-view>

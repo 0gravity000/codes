@@ -11,7 +11,6 @@
                 msg: 'Hello World!'
             }
         },
-		  //example 13-2 digital clock
     }
 </script>
 
