@@ -8,6 +8,7 @@ import VueRouter from 'vue-router';
 import HeaderComponent from "./components/HeaderComponent";
 import HelloWorld from "./components/codesjs/HelloWorld";
 import DigitalClock from "./components/codesjs/DigitalClock";
+import AnalogClock from "./components/codesjs/AnalogClock";
 
 require('./bootstrap');
 
@@ -35,6 +36,10 @@ const router = new VueRouter({
         {
             path: '/codejs/digitalclock',
             component: DigitalClock
+        },
+        {
+            path: '/codejs/analogclock',
+            component: AnalogClock
         },
     ]
 });
