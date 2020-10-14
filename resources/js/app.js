@@ -10,6 +10,8 @@ import HelloWorld from "./components/codesjs/HelloWorld";
 import DigitalClock from "./components/codesjs/DigitalClock";
 import AnalogClock from "./components/codesjs/AnalogClock";
 
+import HelloVue from "./components/vuejs/HelloVue";
+
 require('./bootstrap');
 
 window.Vue = require('vue');
@@ -41,6 +43,12 @@ const router = new VueRouter({
             path: '/codejs/analogclock',
             component: AnalogClock
         },
+
+        {
+            path: '/vuejs/hellovue',
+            component: HelloVue
+        },
+
     ]
 });
 

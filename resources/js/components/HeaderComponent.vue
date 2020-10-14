@@ -2,10 +2,10 @@
     <div class="container-fluid bg-dark mb-3">
         <div class="container">
             <nav class="navbar navbar-dark">
-                <span class="navbar-brand mb-0 h1">JavaScript サンプルコード集</span>
+                <span class="navbar-brand mb-0 h1"><a href="/">Codes サンプルコード集</a></span>
                 <div>
-                    <button class="btn btn-link"><a href="/">トップページへ</a></button>
-                    <button class="btn btn-link"><a href="/list">一覧ページへ</a></button>
+                    <button class="btn btn-link"><a href="/jslist">JavaScript一覧ページへ</a></button>
+                    <button class="btn btn-link"><a href="/vuejslist">Vue.js一覧ページへ</a></button>
                     <!--
                     <router-link v-bind:to="{name: 'task.list'}">
                         <button class="btn btn-success">List</button>

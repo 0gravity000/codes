@@ -85,7 +85,8 @@
                 </div>
 
                 <div class="links">
-                    <a href="/list">JavaScript サンプルコード集</a>
+                    <a href="/jslist">JavaScript サンプルコード集</a>
+                    <a href="/vuejslist">Vue.js サンプルコード集</a>
                 </div>
             </div>
         </div>

@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/list', function() {
+Route::get('/jslist', function() {
     return view('app');
+});
+
+Route::get('/vuejslist', function() {
+    return view('appvue');
 });
