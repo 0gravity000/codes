@@ -12,6 +12,8 @@ import AnalogClock from "./components/codesjs/AnalogClock";
 
 import HelloVue from "./components/vuejs/HelloVue";
 import VshowDirective from "./components/vuejs/VshowDirective";
+import VbindClassDirective from "./components/vuejs/VbindClassDirective";
+import VbindStyleDirective from "./components/vuejs/VbindStyleDirective";
 
 require('./bootstrap');
 
@@ -52,6 +54,14 @@ const router = new VueRouter({
         {
             path: '/vuejs/vshow-directive',
             component: VshowDirective
+        },
+        {
+            path: '/vuejs/vbint-class-directive',
+            component: VbindClassDirective
+        },
+        {
+            path: '/vuejs/vbint-style-directive',
+            component: VbindStyleDirective
         },
 
     ]
