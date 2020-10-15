@@ -14,6 +14,7 @@ import HelloVue from "./components/vuejs/HelloVue";
 import VshowDirective from "./components/vuejs/VshowDirective";
 import VbindClassDirective from "./components/vuejs/VbindClassDirective";
 import VbindStyleDirective from "./components/vuejs/VbindStyleDirective";
+import VforDirective from "./components/vuejs/VforDirective";
 
 require('./bootstrap');
 
@@ -56,12 +57,16 @@ const router = new VueRouter({
             component: VshowDirective
         },
         {
-            path: '/vuejs/vbint-class-directive',
+            path: '/vuejs/vbind-class-directive',
             component: VbindClassDirective
         },
         {
-            path: '/vuejs/vbint-style-directive',
+            path: '/vuejs/vbind-style-directive',
             component: VbindStyleDirective
+        },
+        {
+            path: '/vuejs/vfor-directive',
+            component: VforDirective
         },
 
     ]

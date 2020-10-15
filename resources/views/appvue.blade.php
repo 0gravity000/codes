@@ -20,8 +20,9 @@
         <div id="menu" class="col">
             <router-link to="/vuejs/hellovue">Hello Vue</router-link><br>
             <router-link to="/vuejs/vshow-directive">v-show デイレクティブ</router-link><br>
-            <router-link to="/vuejs/vbint-class-directive">v-bind:class デイレクティブ</router-link><br>
-            <router-link to="/vuejs/vbint-style-directive">v-bind:style デイレクティブ</router-link><br>
+            <router-link to="/vuejs/vbind-class-directive">v-bind:class デイレクティブ</router-link><br>
+            <router-link to="/vuejs/vbind-style-directive">v-bind:style デイレクティブ</router-link><br>
+            <router-link to="/vuejs/vfor-directive">v-for デイレクティブ</router-link><br>
         </div>
         <div id="main" class="col-8">
             <router-view></router-view>
