@@ -15,6 +15,8 @@ import VshowDirective from "./components/vuejs/VshowDirective";
 import VbindClassDirective from "./components/vuejs/VbindClassDirective";
 import VbindStyleDirective from "./components/vuejs/VbindStyleDirective";
 import VforDirective from "./components/vuejs/VforDirective";
+import VonDirective from "./components/vuejs/VonDirective";
+import VmodelDirective from "./components/vuejs/VmodelDirective";
 
 require('./bootstrap');
 
@@ -67,6 +69,14 @@ const router = new VueRouter({
         {
             path: '/vuejs/vfor-directive',
             component: VforDirective
+        },
+        {
+            path: '/vuejs/von-directive',
+            component: VonDirective
+        },
+        {
+            path: '/vuejs/vmodel-directive',
+            component: VmodelDirective
         },
 
     ]

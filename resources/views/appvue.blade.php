@@ -23,6 +23,8 @@
             <router-link to="/vuejs/vbind-class-directive">v-bind:class デイレクティブ</router-link><br>
             <router-link to="/vuejs/vbind-style-directive">v-bind:style デイレクティブ</router-link><br>
             <router-link to="/vuejs/vfor-directive">v-for デイレクティブ</router-link><br>
+            <router-link to="/vuejs/von-directive">v-on デイレクティブ</router-link><br>
+            <router-link to="/vuejs/vmodel-directive">v-model デイレクティブ</router-link><br>
         </div>
         <div id="main" class="col-8">
             <router-view></router-view>
