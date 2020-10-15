@@ -11,6 +11,7 @@ import DigitalClock from "./components/codesjs/DigitalClock";
 import AnalogClock from "./components/codesjs/AnalogClock";
 
 import HelloVue from "./components/vuejs/HelloVue";
+import VshowDirective from "./components/vuejs/VshowDirective";
 
 require('./bootstrap');
 
@@ -47,6 +48,10 @@ const router = new VueRouter({
         {
             path: '/vuejs/hellovue',
             component: HelloVue
+        },
+        {
+            path: '/vuejs/vshow-directive',
+            component: VshowDirective
         },
 
     ]

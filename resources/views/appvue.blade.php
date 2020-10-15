@@ -19,6 +19,7 @@
     <div class="row">
         <div id="menu" class="col">
             <router-link to="/vuejs/hellovue">Hello Vue</router-link><br>
+            <router-link to="/vuejs/vshow-directive">v-show デイレクティブ</router-link><br>
         </div>
         <div id="main" class="col-8">
             <router-view></router-view>
